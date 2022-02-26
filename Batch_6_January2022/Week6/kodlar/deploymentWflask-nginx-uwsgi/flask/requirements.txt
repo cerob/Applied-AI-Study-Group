@@ -1,0 +1,6 @@
+Flask==2.0.1
+numpy==1.19.0
+opencv_python==4.5.1.48
+Pillow==9.0.0
+uwsgi==2.0.20
+Werkzeug==2.0.1

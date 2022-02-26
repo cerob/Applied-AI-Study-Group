@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <!--the user's visible area of a web page.
+    This gives the browser instructions on 
+    how to control the page's dimensions and scaling.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="icon" href="/Users/oredata/Desktop/app engine/1754330.png">--> 
+    <title>Object Detection API</title>
+
+    <!-- external css --> 
+    <link rel="stylesheet" type= "text/css" href="../static:css/styles.css">
+    </head>
+
+   <body>
+   <h1>Object Detection API</h1>
+   <br><br><br><br>
+   
+      <form action = "/" method = "POST" enctype = "multipart/form-data">
+
+        <div class="d">
+          <label for="Input Type">Choose an input type:</label>
+          <select id="dtype" name="dtype">
+            <option value="image">Image</option>
+            <option value="video">Video</option>
+          </select>
+        &nbsp;
+
+        &nbsp;
+          <input type = "file" name = "file" >
+          <br><br><br>
+          <input type="submit" value="Submit">
+        </div>
+
+          <br><br><br><br>
+          Object detection is a computer vision technique that allows us to identify and locate objects in an image or video. <br> With this kind of identification and localization, <br> object detection can be used to count objects in a scene and determine and track their precise locations, <br> all while accurately labeling them.</b>
+          <br><br>
+        <a target="_blank" href="https://github.com/dyguay/object-detection-api">Github Link</a>
+
+      </form>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer id="main-footer">
+        Copyright &copy; 2021
+    </footer>
+   </body>
+</html>

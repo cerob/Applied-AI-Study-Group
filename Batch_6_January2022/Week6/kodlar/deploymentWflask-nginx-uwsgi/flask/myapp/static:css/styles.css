@@ -1,0 +1,14 @@
+
+body {
+    background-color: #f4e1e6;
+    text-align: center;
+    font-size: 16px;
+}
+
+a {
+    color: #096ac5;
+}
+
+a:hover {
+    color:blue;
+  }
